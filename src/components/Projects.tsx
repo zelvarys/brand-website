@@ -23,8 +23,8 @@ const projects: Project[] = [
     title: 'Python WhatsApp Bot',
     description: 'General-purpose WhatsApp bot built with PyWA for handling messages, commands, and interactive responses with auto-reply, command parsing, and custom callback queries.',
     tags: ['Python', 'PyWA', 'WhatsApp', 'asyncio'],
-    github: 'https://github.com/zelvarys/whatsapp-bot',
-    live: 'https://wa.me/1234567890',
+    github: 'https://github.com/zelvarys/',
+    live: '#',
   },
   {
     icon: 'fa-robot',
@@ -56,7 +56,7 @@ const projects: Project[] = [
     description: 'Responsive brand website built with React and TypeScript featuring dark mode, smooth animations, and optimized performance with SEO optimization and component-based architecture.',
     tags: ['TypeScript', 'React', 'CSS', 'Vite'],
     github: 'https://github.com/zelvarys/brand-website',
-    live: 'https://zelvarys.dev',
+    live: 'https://zelvarys.github.io/portfolio',
   },
 ]
 

@@ -31,7 +31,7 @@ const Footer = () => {
               <a href="https://github.com/zelvarys" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="mailto:zelvarys.dev@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:me.zelvarys@gmail.com" target="_blank" rel="noopener noreferrer">
                 <i className="fas fa-envelope"></i>
               </a>
               <a href="https://wa.me/2348101730524" target="_blank" rel="noopener noreferrer">
