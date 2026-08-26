@@ -50,8 +50,7 @@ const Header = () => {
         .nav { max-width: 1400px; margin: 0 auto; padding: 0.5rem 1.5rem; border-bottom: 1px solid var(--border); }
         .nav-container { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0; }
         .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
-        .logo img { width: 28px; height: 28px; }
-        .logo span { font-weight: 700; font-size: 1.3rem; background: linear-gradient(135deg, #9ca3af, #d1d5db); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .logo span { font-weight: 700; font-size: 1.3rem; background: linear-gradient(135deg, #9ca3af, #d1d5db); -webkit-background-clip: text; background-clip: text; color: transparent; text-transform: uppercase; }
         .menu-toggle { display: none; background: none; border: none; color: var(--text-primary); font-size: 1.5rem; cursor: pointer; padding: 4px; }
         .nav-links { display: flex; gap: 2.5rem; list-style: none; }
         .nav-links a { color: var(--text-secondary); text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: all 0.3s; position: relative; }
@@ -70,7 +69,6 @@ const Header = () => {
         <div className="nav">
           <div className="nav-container">
             <a href="#home" className="logo">
-              <img src="/assets/favicon.svg" alt="Zelvarys" />
               <span>Zelvarys</span>
             </a>
             <ul className="nav-links">
